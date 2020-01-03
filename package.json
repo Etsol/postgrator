@@ -29,7 +29,8 @@
   "scripts": {
     "precommit": "lint-staged",
     "lint": "eslint '**/*.js'",
-    "test": "mocha --require ts-node/register --recursive \"test/**/*.{js,ts}\""
+    "test": "mocha --require ts-node/register --recursive \"test/**/*.{js,ts}\"",
+    "test_promises": "mocha \"test/promises.js\""
   },
   "dependencies": {
     "glob": "^7.1.6",
